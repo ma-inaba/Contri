@@ -7,18 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A27771311F2CE9BA00BBDA14 /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27771301F2CE9BA00BBDA14 /* SummaryViewController.swift */; };
+		A27771331F2CE9C800BBDA14 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27771321F2CE9C800BBDA14 /* RankingViewController.swift */; };
+		A27771351F2CE9D500BBDA14 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27771341F2CE9D500BBDA14 /* ProfileViewController.swift */; };
+		A27771371F2CEA9C00BBDA14 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27771361F2CEA9C00BBDA14 /* LoginViewController.swift */; };
+		A277713A1F2CEFFC00BBDA14 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A277713C1F2CEFFC00BBDA14 /* Localizable.strings */; };
+		A27771401F2CF1F300BBDA14 /* String+ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A277713F1F2CF1F300BBDA14 /* String+ex.swift */; };
+		A27771421F2CF44E00BBDA14 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27771411F2CF44E00BBDA14 /* MainTabBarController.swift */; };
+		A27771441F2CF9B600BBDA14 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27771431F2CF9B600BBDA14 /* LoginModel.swift */; };
+		A277714B1F2D0D5700BBDA14 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A277714A1F2D0D5700BBDA14 /* CircleImageView.swift */; };
+		A277714D1F2D107F00BBDA14 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A277714C1F2D107F00BBDA14 /* CircleView.swift */; };
 		A2FB8AFB1F2B505B00F20C20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FB8AED1F2B505B00F20C20 /* AppDelegate.swift */; };
-		A2FB8AFD1F2B505B00F20C20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FB8AF01F2B505B00F20C20 /* ViewController.swift */; };
 		A2FB8AFE1F2B505B00F20C20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2FB8AF31F2B505B00F20C20 /* Assets.xcassets */; };
 		A2FB8AFF1F2B505B00F20C20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2FB8AF51F2B505B00F20C20 /* LaunchScreen.storyboard */; };
 		A2FB8B001F2B505B00F20C20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2FB8AF71F2B505B00F20C20 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A27771301F2CE9BA00BBDA14 /* SummaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
+		A27771321F2CE9C800BBDA14 /* RankingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
+		A27771341F2CE9D500BBDA14 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		A27771361F2CEA9C00BBDA14 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A277713B1F2CEFFC00BBDA14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A277713D1F2CF01200BBDA14 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A277713F1F2CF1F300BBDA14 /* String+ex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+ex.swift"; sourceTree = "<group>"; };
+		A27771411F2CF44E00BBDA14 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		A27771431F2CF9B600BBDA14 /* LoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		A277714A1F2D0D5700BBDA14 /* CircleImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		A277714C1F2D107F00BBDA14 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		A2FB8AD71F2B4F4B00F20C20 /* Contri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contri.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2FB8AED1F2B505B00F20C20 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2FB8AEE1F2B505B00F20C20 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A2FB8AF01F2B505B00F20C20 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A2FB8AF31F2B505B00F20C20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2FB8AF61F2B505B00F20C20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2FB8AF81F2B505B00F20C20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -35,6 +54,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A277713E1F2CF15E00BBDA14 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A277713F1F2CF1F300BBDA14 /* String+ex.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A27771491F2D0D3800BBDA14 /* Inheritance */ = {
+			isa = PBXGroup;
+			children = (
+				A277714A1F2D0D5700BBDA14 /* CircleImageView.swift */,
+				A277714C1F2D107F00BBDA14 /* CircleView.swift */,
+			);
+			path = Inheritance;
+			sourceTree = "<group>";
+		};
 		A2FB8ACE1F2B4F4B00F20C20 = {
 			isa = PBXGroup;
 			children = (
@@ -55,12 +91,12 @@
 			isa = PBXGroup;
 			children = (
 				A2FB8AEC1F2B505B00F20C20 /* Application */,
-				A2FB8AEF1F2B505B00F20C20 /* Controller */,
 				A2FB8AF11F2B505B00F20C20 /* Model */,
-				A2FB8AF21F2B505B00F20C20 /* Resource */,
-				A2FB8AF41F2B505B00F20C20 /* Storyboard */,
-				A2FB8AF91F2B505B00F20C20 /* Utility */,
 				A2FB8AFA1F2B505B00F20C20 /* View */,
+				A2FB8AEF1F2B505B00F20C20 /* Controller */,
+				A2FB8AF91F2B505B00F20C20 /* Utility */,
+				A2FB8AF41F2B505B00F20C20 /* Storyboard */,
+				A2FB8AF21F2B505B00F20C20 /* Resource */,
 			);
 			path = Contri;
 			sourceTree = "<group>";
@@ -70,6 +106,7 @@
 			children = (
 				A2FB8AED1F2B505B00F20C20 /* AppDelegate.swift */,
 				A2FB8AEE1F2B505B00F20C20 /* Info.plist */,
+				A277713C1F2CEFFC00BBDA14 /* Localizable.strings */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -77,7 +114,11 @@
 		A2FB8AEF1F2B505B00F20C20 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				A2FB8AF01F2B505B00F20C20 /* ViewController.swift */,
+				A27771361F2CEA9C00BBDA14 /* LoginViewController.swift */,
+				A27771411F2CF44E00BBDA14 /* MainTabBarController.swift */,
+				A27771301F2CE9BA00BBDA14 /* SummaryViewController.swift */,
+				A27771321F2CE9C800BBDA14 /* RankingViewController.swift */,
+				A27771341F2CE9D500BBDA14 /* ProfileViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -85,6 +126,7 @@
 		A2FB8AF11F2B505B00F20C20 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A27771431F2CF9B600BBDA14 /* LoginModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -109,6 +151,8 @@
 		A2FB8AF91F2B505B00F20C20 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				A277713E1F2CF15E00BBDA14 /* Extension */,
+				A27771491F2D0D3800BBDA14 /* Inheritance */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -164,6 +208,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = A2FB8ACE1F2B4F4B00F20C20;
 			productRefGroup = A2FB8AD81F2B4F4B00F20C20 /* Products */;
@@ -181,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2FB8AFF1F2B505B00F20C20 /* LaunchScreen.storyboard in Resources */,
+				A277713A1F2CEFFC00BBDA14 /* Localizable.strings in Resources */,
 				A2FB8AFE1F2B505B00F20C20 /* Assets.xcassets in Resources */,
 				A2FB8B001F2B505B00F20C20 /* Main.storyboard in Resources */,
 			);
@@ -193,14 +239,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2FB8AFD1F2B505B00F20C20 /* ViewController.swift in Sources */,
 				A2FB8AFB1F2B505B00F20C20 /* AppDelegate.swift in Sources */,
+				A277714B1F2D0D5700BBDA14 /* CircleImageView.swift in Sources */,
+				A27771401F2CF1F300BBDA14 /* String+ex.swift in Sources */,
+				A27771311F2CE9BA00BBDA14 /* SummaryViewController.swift in Sources */,
+				A27771421F2CF44E00BBDA14 /* MainTabBarController.swift in Sources */,
+				A27771351F2CE9D500BBDA14 /* ProfileViewController.swift in Sources */,
+				A277714D1F2D107F00BBDA14 /* CircleView.swift in Sources */,
+				A27771441F2CF9B600BBDA14 /* LoginModel.swift in Sources */,
+				A27771371F2CEA9C00BBDA14 /* LoginViewController.swift in Sources */,
+				A27771331F2CE9C800BBDA14 /* RankingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		A277713C1F2CEFFC00BBDA14 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A277713B1F2CEFFC00BBDA14 /* Base */,
+				A277713D1F2CF01200BBDA14 /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		A2FB8AF51F2B505B00F20C20 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -224,6 +287,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -276,6 +340,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
