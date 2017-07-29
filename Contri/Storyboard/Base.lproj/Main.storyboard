@@ -335,7 +335,6 @@ This is Sample text</string>
                                             <constraint firstAttribute="width" constant="25" id="2c2-bn-iag"/>
                                             <constraint firstAttribute="height" constant="25" id="igk-s0-dVK"/>
                                         </constraints>
-                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <state key="normal" image="setting"/>
                                         <connections>
                                             <action selector="onSettingButton:" destination="POW-bh-Kin" eventType="touchUpInside" id="axB-fH-5yA"/>
@@ -350,6 +349,9 @@ This is Sample text</string>
                             </view>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="settingButton" destination="JD4-Ca-9xP" id="ziC-Fh-vNB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aQw-Cv-xdz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

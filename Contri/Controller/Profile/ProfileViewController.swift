@@ -10,6 +10,8 @@ import UIKit
 
 class ProfileViewController: UIViewController {
 
+    @IBOutlet weak var settingButton: UIButton!
+    
     // MARK: Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,7 +22,8 @@ class ProfileViewController: UIViewController {
     // MARK: Setting
     func settingUI() {
         self.navigationController!.navigationBar.shadowImage = UIImage()
-        self.navigationController!.navigationBar.setBackgroundImage(UIImage(), for: .default)        
+        self.navigationController!.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        settingButton.tintColor = UIColor.contriSkinWhite()
     }
     
     // MARK: Action
