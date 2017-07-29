@@ -1,0 +1,6 @@
+framework module Pods_Contri {
+  umbrella header "Pods-Contri-umbrella.h"
+
+  export *
+  module * { export * }
+}
