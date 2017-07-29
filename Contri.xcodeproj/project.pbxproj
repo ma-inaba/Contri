@@ -22,6 +22,8 @@
 		A27771541F2D18B900BBDA14 /* SponsorshipSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27771531F2D18B900BBDA14 /* SponsorshipSummaryViewController.swift */; };
 		A27771561F2D18CD00BBDA14 /* JoinSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27771551F2D18CD00BBDA14 /* JoinSummaryViewController.swift */; };
 		A27771581F2D1EFF00BBDA14 /* UIColor+ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27771571F2D1EFF00BBDA14 /* UIColor+ex.swift */; };
+		A277715A1F2D26D500BBDA14 /* ContriNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27771591F2D26D500BBDA14 /* ContriNavigationController.swift */; };
+		A277715C1F2D290000BBDA14 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A277715B1F2D290000BBDA14 /* SettingViewController.swift */; };
 		A2FB8AFB1F2B505B00F20C20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FB8AED1F2B505B00F20C20 /* AppDelegate.swift */; };
 		A2FB8AFE1F2B505B00F20C20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2FB8AF31F2B505B00F20C20 /* Assets.xcassets */; };
 		A2FB8AFF1F2B505B00F20C20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2FB8AF51F2B505B00F20C20 /* LaunchScreen.storyboard */; };
@@ -47,6 +49,8 @@
 		A27771531F2D18B900BBDA14 /* SponsorshipSummaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SponsorshipSummaryViewController.swift; sourceTree = "<group>"; };
 		A27771551F2D18CD00BBDA14 /* JoinSummaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinSummaryViewController.swift; sourceTree = "<group>"; };
 		A27771571F2D1EFF00BBDA14 /* UIColor+ex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+ex.swift"; sourceTree = "<group>"; };
+		A27771591F2D26D500BBDA14 /* ContriNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContriNavigationController.swift; sourceTree = "<group>"; };
+		A277715B1F2D290000BBDA14 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		A2FB8AD71F2B4F4B00F20C20 /* Contri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contri.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2FB8AED1F2B505B00F20C20 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2FB8AEE1F2B505B00F20C20 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -158,10 +162,12 @@
 		A2FB8AEF1F2B505B00F20C20 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				A27771361F2CEA9C00BBDA14 /* LoginViewController.swift */,
 				A27771411F2CF44E00BBDA14 /* MainTabBarController.swift */,
+				A27771591F2D26D500BBDA14 /* ContriNavigationController.swift */,
+				A27771361F2CEA9C00BBDA14 /* LoginViewController.swift */,
 				A27771301F2CE9BA00BBDA14 /* SummaryViewController.swift */,
 				A27771321F2CE9C800BBDA14 /* RankingViewController.swift */,
+				A277715B1F2D290000BBDA14 /* SettingViewController.swift */,
 				A277714E1F2D17EF00BBDA14 /* Profile */,
 			);
 			path = Controller;
@@ -337,6 +343,7 @@
 				A2FB8AFB1F2B505B00F20C20 /* AppDelegate.swift in Sources */,
 				A27771521F2D181400BBDA14 /* MainViewController.swift in Sources */,
 				A27771581F2D1EFF00BBDA14 /* UIColor+ex.swift in Sources */,
+				A277715C1F2D290000BBDA14 /* SettingViewController.swift in Sources */,
 				A27771561F2D18CD00BBDA14 /* JoinSummaryViewController.swift in Sources */,
 				A27771541F2D18B900BBDA14 /* SponsorshipSummaryViewController.swift in Sources */,
 				A277714B1F2D0D5700BBDA14 /* CircleImageView.swift in Sources */,
@@ -345,6 +352,7 @@
 				A27771311F2CE9BA00BBDA14 /* SummaryViewController.swift in Sources */,
 				A27771421F2CF44E00BBDA14 /* MainTabBarController.swift in Sources */,
 				A277714D1F2D107F00BBDA14 /* CircleView.swift in Sources */,
+				A277715A1F2D26D500BBDA14 /* ContriNavigationController.swift in Sources */,
 				A27771441F2CF9B600BBDA14 /* LoginModel.swift in Sources */,
 				A27771371F2CEA9C00BBDA14 /* LoginViewController.swift in Sources */,
 				A27771331F2CE9C800BBDA14 /* RankingViewController.swift in Sources */,

@@ -12,5 +12,11 @@ class MainTabBarController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        settingUI()
+    }
+    
+    func settingUI() {
+        self.tabBar.tintColor = UIColor.contriDarkBlue()
+        self.tabBar.barTintColor = UIColor.contriSkinWhite()
     }
 }

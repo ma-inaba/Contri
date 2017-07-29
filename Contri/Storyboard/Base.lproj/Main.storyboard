@@ -337,6 +337,9 @@ This is Sample text</string>
                                         </constraints>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <state key="normal" image="setting"/>
+                                        <connections>
+                                            <action selector="onSettingButton:" destination="POW-bh-Kin" eventType="touchUpInside" id="axB-fH-5yA"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -352,10 +355,48 @@ This is Sample text</string>
             </objects>
             <point key="canvasLocation" x="2208.8000000000002" y="1261.6191904047978"/>
         </scene>
+        <!--Setting-->
+        <scene sceneID="MA0-3U-F9h">
+            <objects>
+                <viewController storyboardIdentifier="SettingViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="AM6-MD-uBm" customClass="SettingViewController" customModule="Contri" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Gtp-eG-vlB"/>
+                        <viewControllerLayoutGuide type="bottom" id="7GP-hl-McO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="g3f-So-M9z">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="7Mx-cq-qON">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7Mx-cq-qON" firstAttribute="top" secondItem="g3f-So-M9z" secondAttribute="top" id="S7r-BC-fGI"/>
+                            <constraint firstAttribute="trailing" secondItem="7Mx-cq-qON" secondAttribute="trailing" id="aKs-vp-CRt"/>
+                            <constraint firstItem="7Mx-cq-qON" firstAttribute="leading" secondItem="g3f-So-M9z" secondAttribute="leading" id="j5T-HD-khd"/>
+                            <constraint firstItem="7GP-hl-McO" firstAttribute="top" secondItem="7Mx-cq-qON" secondAttribute="bottom" id="sp4-Ic-8OD"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Setting" id="oue-46-1Th">
+                        <barButtonItem key="rightBarButtonItem" systemItem="stop" id="AYO-fE-HHJ">
+                            <connections>
+                                <action selector="onCloseButton:" destination="AM6-MD-uBm" id="UIp-Xa-LoX"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="biX-PU-A1E" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2208.8000000000002" y="1946.176911544228"/>
+        </scene>
         <!--Summary-->
         <scene sceneID="toZ-Gs-gO4">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="T3l-qa-q9o" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="T3l-qa-q9o" customClass="ContriNavigationController" customModule="Contri" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Summary" image="summary" id="log-pn-ZNn"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="wpi-yO-7ct">
@@ -374,7 +415,7 @@ This is Sample text</string>
         <!--Ranking-->
         <scene sceneID="sS6-6z-S7s">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Rkg-4t-nVT" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Rkg-4t-nVT" customClass="ContriNavigationController" customModule="Contri" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Ranking" image="ranking" id="evN-b0-6az"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ysQ-YF-04g">
@@ -393,7 +434,7 @@ This is Sample text</string>
         <!--Prifile-->
         <scene sceneID="Tdh-Qw-OV1">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Z2h-N2-rr2" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Z2h-N2-rr2" customClass="ContriNavigationController" customModule="Contri" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Prifile" image="profile" id="HNo-5o-Wbj"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="270-yd-5Xu">

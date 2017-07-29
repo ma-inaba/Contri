@@ -22,7 +22,15 @@ class ProfileViewController: UIViewController {
         self.navigationController!.navigationBar.shadowImage = UIImage()
         self.navigationController!.navigationBar.setBackgroundImage(UIImage(), for: .default)        
     }
-
+    
+    // MARK: Action
+    @IBAction func onSettingButton(_ sender: Any) {
+        let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let settingViewCon = storyboard.instantiateViewController(withIdentifier: "SettingViewController")
+        let navController = ContriNavigationController(rootViewController: settingViewCon)
+        present(navController, animated: true, completion: nil)
+    }
+    
     // MARK: UIViewController
     override var prefersStatusBarHidden : Bool {
         return true
