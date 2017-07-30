@@ -24,6 +24,12 @@
 		A27771581F2D1EFF00BBDA14 /* UIColor+ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27771571F2D1EFF00BBDA14 /* UIColor+ex.swift */; };
 		A277715A1F2D26D500BBDA14 /* ContriNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27771591F2D26D500BBDA14 /* ContriNavigationController.swift */; };
 		A277715C1F2D290000BBDA14 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A277715B1F2D290000BBDA14 /* SettingViewController.swift */; };
+		A27771611F2DA05D00BBDA14 /* SponsorshipTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27771601F2DA05D00BBDA14 /* SponsorshipTable.swift */; };
+		A27771641F2DA12300BBDA14 /* SponsorshipTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27771621F2DA12300BBDA14 /* SponsorshipTableCell.swift */; };
+		A27771651F2DA12300BBDA14 /* SponsorshipTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A27771631F2DA12300BBDA14 /* SponsorshipTableCell.xib */; };
+		A27771681F2DBD0D00BBDA14 /* JoinTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27771661F2DBD0D00BBDA14 /* JoinTableCell.swift */; };
+		A27771691F2DBD0D00BBDA14 /* JoinTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A27771671F2DBD0D00BBDA14 /* JoinTableCell.xib */; };
+		A277716B1F2DBD2400BBDA14 /* JoinTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A277716A1F2DBD2400BBDA14 /* JoinTable.swift */; };
 		A2FB8AFB1F2B505B00F20C20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FB8AED1F2B505B00F20C20 /* AppDelegate.swift */; };
 		A2FB8AFE1F2B505B00F20C20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2FB8AF31F2B505B00F20C20 /* Assets.xcassets */; };
 		A2FB8AFF1F2B505B00F20C20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2FB8AF51F2B505B00F20C20 /* LaunchScreen.storyboard */; };
@@ -51,6 +57,12 @@
 		A27771571F2D1EFF00BBDA14 /* UIColor+ex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+ex.swift"; sourceTree = "<group>"; };
 		A27771591F2D26D500BBDA14 /* ContriNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContriNavigationController.swift; sourceTree = "<group>"; };
 		A277715B1F2D290000BBDA14 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		A27771601F2DA05D00BBDA14 /* SponsorshipTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SponsorshipTable.swift; sourceTree = "<group>"; };
+		A27771621F2DA12300BBDA14 /* SponsorshipTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SponsorshipTableCell.swift; sourceTree = "<group>"; };
+		A27771631F2DA12300BBDA14 /* SponsorshipTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SponsorshipTableCell.xib; sourceTree = "<group>"; };
+		A27771661F2DBD0D00BBDA14 /* JoinTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinTableCell.swift; sourceTree = "<group>"; };
+		A27771671F2DBD0D00BBDA14 /* JoinTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JoinTableCell.xib; sourceTree = "<group>"; };
+		A277716A1F2DBD2400BBDA14 /* JoinTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinTable.swift; sourceTree = "<group>"; };
 		A2FB8AD71F2B4F4B00F20C20 /* Contri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contri.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2FB8AED1F2B505B00F20C20 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2FB8AEE1F2B505B00F20C20 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -115,6 +127,35 @@
 				A27771551F2D18CD00BBDA14 /* JoinSummaryViewController.swift */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		A277715D1F2DA03600BBDA14 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A277715F1F2DA03600BBDA14 /* SponsorshipTable */,
+				A277715E1F2DA03600BBDA14 /* JoinTable */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A277715E1F2DA03600BBDA14 /* JoinTable */ = {
+			isa = PBXGroup;
+			children = (
+				A277716A1F2DBD2400BBDA14 /* JoinTable.swift */,
+				A27771661F2DBD0D00BBDA14 /* JoinTableCell.swift */,
+				A27771671F2DBD0D00BBDA14 /* JoinTableCell.xib */,
+			);
+			path = JoinTable;
+			sourceTree = "<group>";
+		};
+		A277715F1F2DA03600BBDA14 /* SponsorshipTable */ = {
+			isa = PBXGroup;
+			children = (
+				A27771601F2DA05D00BBDA14 /* SponsorshipTable.swift */,
+				A27771621F2DA12300BBDA14 /* SponsorshipTableCell.swift */,
+				A27771631F2DA12300BBDA14 /* SponsorshipTableCell.xib */,
+			);
+			path = SponsorshipTable;
 			sourceTree = "<group>";
 		};
 		A2FB8ACE1F2B4F4B00F20C20 = {
@@ -210,6 +251,7 @@
 		A2FB8AFA1F2B505B00F20C20 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A277715D1F2DA03600BBDA14 /* Profile */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -278,9 +320,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A27771691F2DBD0D00BBDA14 /* JoinTableCell.xib in Resources */,
 				A2FB8AFF1F2B505B00F20C20 /* LaunchScreen.storyboard in Resources */,
 				A277713A1F2CEFFC00BBDA14 /* Localizable.strings in Resources */,
 				A2FB8AFE1F2B505B00F20C20 /* Assets.xcassets in Resources */,
+				A27771651F2DA12300BBDA14 /* SponsorshipTableCell.xib in Resources */,
 				A2FB8B001F2B505B00F20C20 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,6 +393,8 @@
 				A277714B1F2D0D5700BBDA14 /* CircleImageView.swift in Sources */,
 				A27771501F2D17EF00BBDA14 /* ProfileViewController.swift in Sources */,
 				A27771401F2CF1F300BBDA14 /* String+ex.swift in Sources */,
+				A27771641F2DA12300BBDA14 /* SponsorshipTableCell.swift in Sources */,
+				A27771681F2DBD0D00BBDA14 /* JoinTableCell.swift in Sources */,
 				A27771311F2CE9BA00BBDA14 /* SummaryViewController.swift in Sources */,
 				A27771421F2CF44E00BBDA14 /* MainTabBarController.swift in Sources */,
 				A277714D1F2D107F00BBDA14 /* CircleView.swift in Sources */,
@@ -356,6 +402,8 @@
 				A27771441F2CF9B600BBDA14 /* LoginModel.swift in Sources */,
 				A27771371F2CEA9C00BBDA14 /* LoginViewController.swift in Sources */,
 				A27771331F2CE9C800BBDA14 /* RankingViewController.swift in Sources */,
+				A277716B1F2DBD2400BBDA14 /* JoinTable.swift in Sources */,
+				A27771611F2DA05D00BBDA14 /* SponsorshipTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

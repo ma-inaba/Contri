@@ -6,6 +6,9 @@
   Copyright © 2017年 inaba masaya. All rights reserved.
 */
 
+// ログイン画面
 "LoginLabelTitle" = "Create account or login";
 "CreateAccountButtonTitle" = "Create";
 "LoginButtonTitle" = "Login";
+
+// プロフィール画面
