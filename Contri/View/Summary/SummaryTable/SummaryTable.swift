@@ -1,5 +1,5 @@
 //
-//  SponsorshipTable.swift
+//  SummaryTable.swift
 //  Contri
 //
 //  Created by inaba masaya on 2017/07/30.
@@ -8,35 +8,35 @@
 
 import UIKit
 
-protocol SponsorshipTableDelegate {
+protocol SummaryTableDelegate {
     
     func didSelectRowAt(indexPath:IndexPath)
 }
 
-class SponsorshipTable: UITableView,UITableViewDelegate,UITableViewDataSource {
+class SummaryTable: UITableView,UITableViewDelegate,UITableViewDataSource {
     
-    var sponsorshipTableDelegate: SponsorshipTableDelegate?
+    var summaryTableDelegate: SummaryTableDelegate?
 
     override func awakeFromNib() {
         super.awakeFromNib()
         self.delegate = self
         self.dataSource = self
-        self.register(UINib(nibName: "SponsorshipTableCell", bundle: nil), forCellReuseIdentifier: "SponsorshipTableCell")
+        self.register(UINib(nibName: "SummaryTableViewCell", bundle: nil), forCellReuseIdentifier: "SummaryTableViewCell")
         self.estimatedRowHeight = 44
         self.rowHeight = UITableViewAutomaticDimension
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath:IndexPath) {
         deselectRow(at: indexPath, animated: true)
-        sponsorshipTableDelegate?.didSelectRowAt(indexPath: indexPath)
+        summaryTableDelegate?.didSelectRowAt(indexPath: indexPath)
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = self.dequeueReusableCell(withIdentifier: "SponsorshipTableCell", for: indexPath) as! SponsorshipTableCell
+        let cell = self.dequeueReusableCell(withIdentifier: "SummaryTableViewCell", for: indexPath) as! SummaryTableViewCell
         return cell
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2
+        return 10
     }
 }

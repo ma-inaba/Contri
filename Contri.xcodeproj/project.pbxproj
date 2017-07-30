@@ -30,6 +30,11 @@
 		A27771681F2DBD0D00BBDA14 /* JoinTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27771661F2DBD0D00BBDA14 /* JoinTableCell.swift */; };
 		A27771691F2DBD0D00BBDA14 /* JoinTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A27771671F2DBD0D00BBDA14 /* JoinTableCell.xib */; };
 		A277716B1F2DBD2400BBDA14 /* JoinTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A277716A1F2DBD2400BBDA14 /* JoinTable.swift */; };
+		A277716D1F2DC59D00BBDA14 /* UIView+ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A277716C1F2DC59D00BBDA14 /* UIView+ex.swift */; };
+		A27771711F2DCB4600BBDA14 /* SummaryTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27771701F2DCB4600BBDA14 /* SummaryTable.swift */; };
+		A27771741F2DCB5700BBDA14 /* SummaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27771721F2DCB5700BBDA14 /* SummaryTableViewCell.swift */; };
+		A27771751F2DCB5700BBDA14 /* SummaryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A27771731F2DCB5700BBDA14 /* SummaryTableViewCell.xib */; };
+		A27771771F2DCDB000BBDA14 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27771761F2DCDB000BBDA14 /* DetailViewController.swift */; };
 		A2FB8AFB1F2B505B00F20C20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FB8AED1F2B505B00F20C20 /* AppDelegate.swift */; };
 		A2FB8AFE1F2B505B00F20C20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2FB8AF31F2B505B00F20C20 /* Assets.xcassets */; };
 		A2FB8AFF1F2B505B00F20C20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2FB8AF51F2B505B00F20C20 /* LaunchScreen.storyboard */; };
@@ -63,6 +68,11 @@
 		A27771661F2DBD0D00BBDA14 /* JoinTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinTableCell.swift; sourceTree = "<group>"; };
 		A27771671F2DBD0D00BBDA14 /* JoinTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JoinTableCell.xib; sourceTree = "<group>"; };
 		A277716A1F2DBD2400BBDA14 /* JoinTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinTable.swift; sourceTree = "<group>"; };
+		A277716C1F2DC59D00BBDA14 /* UIView+ex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+ex.swift"; sourceTree = "<group>"; };
+		A27771701F2DCB4600BBDA14 /* SummaryTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryTable.swift; sourceTree = "<group>"; };
+		A27771721F2DCB5700BBDA14 /* SummaryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryTableViewCell.swift; sourceTree = "<group>"; };
+		A27771731F2DCB5700BBDA14 /* SummaryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SummaryTableViewCell.xib; sourceTree = "<group>"; };
+		A27771761F2DCDB000BBDA14 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		A2FB8AD71F2B4F4B00F20C20 /* Contri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contri.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2FB8AED1F2B505B00F20C20 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2FB8AEE1F2B505B00F20C20 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -105,6 +115,7 @@
 			children = (
 				A277713F1F2CF1F300BBDA14 /* String+ex.swift */,
 				A27771571F2D1EFF00BBDA14 /* UIColor+ex.swift */,
+				A277716C1F2DC59D00BBDA14 /* UIView+ex.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -158,6 +169,24 @@
 			path = SponsorshipTable;
 			sourceTree = "<group>";
 		};
+		A277716E1F2DCB1200BBDA14 /* Summary */ = {
+			isa = PBXGroup;
+			children = (
+				A277716F1F2DCB2900BBDA14 /* SummaryTable */,
+			);
+			path = Summary;
+			sourceTree = "<group>";
+		};
+		A277716F1F2DCB2900BBDA14 /* SummaryTable */ = {
+			isa = PBXGroup;
+			children = (
+				A27771701F2DCB4600BBDA14 /* SummaryTable.swift */,
+				A27771721F2DCB5700BBDA14 /* SummaryTableViewCell.swift */,
+				A27771731F2DCB5700BBDA14 /* SummaryTableViewCell.xib */,
+			);
+			path = SummaryTable;
+			sourceTree = "<group>";
+		};
 		A2FB8ACE1F2B4F4B00F20C20 = {
 			isa = PBXGroup;
 			children = (
@@ -207,6 +236,7 @@
 				A27771591F2D26D500BBDA14 /* ContriNavigationController.swift */,
 				A27771361F2CEA9C00BBDA14 /* LoginViewController.swift */,
 				A27771301F2CE9BA00BBDA14 /* SummaryViewController.swift */,
+				A27771761F2DCDB000BBDA14 /* DetailViewController.swift */,
 				A27771321F2CE9C800BBDA14 /* RankingViewController.swift */,
 				A277715B1F2D290000BBDA14 /* SettingViewController.swift */,
 				A277714E1F2D17EF00BBDA14 /* Profile */,
@@ -251,6 +281,7 @@
 		A2FB8AFA1F2B505B00F20C20 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A277716E1F2DCB1200BBDA14 /* Summary */,
 				A277715D1F2DA03600BBDA14 /* Profile */,
 			);
 			path = View;
@@ -326,6 +357,7 @@
 				A2FB8AFE1F2B505B00F20C20 /* Assets.xcassets in Resources */,
 				A27771651F2DA12300BBDA14 /* SponsorshipTableCell.xib in Resources */,
 				A2FB8B001F2B505B00F20C20 /* Main.storyboard in Resources */,
+				A27771751F2DCB5700BBDA14 /* SummaryTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,9 +418,12 @@
 			files = (
 				A2FB8AFB1F2B505B00F20C20 /* AppDelegate.swift in Sources */,
 				A27771521F2D181400BBDA14 /* MainViewController.swift in Sources */,
+				A277716D1F2DC59D00BBDA14 /* UIView+ex.swift in Sources */,
 				A27771581F2D1EFF00BBDA14 /* UIColor+ex.swift in Sources */,
 				A277715C1F2D290000BBDA14 /* SettingViewController.swift in Sources */,
+				A27771711F2DCB4600BBDA14 /* SummaryTable.swift in Sources */,
 				A27771561F2D18CD00BBDA14 /* JoinSummaryViewController.swift in Sources */,
+				A27771741F2DCB5700BBDA14 /* SummaryTableViewCell.swift in Sources */,
 				A27771541F2D18B900BBDA14 /* SponsorshipSummaryViewController.swift in Sources */,
 				A277714B1F2D0D5700BBDA14 /* CircleImageView.swift in Sources */,
 				A27771501F2D17EF00BBDA14 /* ProfileViewController.swift in Sources */,
@@ -396,6 +431,7 @@
 				A27771641F2DA12300BBDA14 /* SponsorshipTableCell.swift in Sources */,
 				A27771681F2DBD0D00BBDA14 /* JoinTableCell.swift in Sources */,
 				A27771311F2CE9BA00BBDA14 /* SummaryViewController.swift in Sources */,
+				A27771771F2DCDB000BBDA14 /* DetailViewController.swift in Sources */,
 				A27771421F2CF44E00BBDA14 /* MainTabBarController.swift in Sources */,
 				A277714D1F2D107F00BBDA14 /* CircleView.swift in Sources */,
 				A277715A1F2D26D500BBDA14 /* ContriNavigationController.swift in Sources */,
